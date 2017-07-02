@@ -15,6 +15,6 @@
     "https://api.meetup.com/",
     "geolocation"
   ],
-  "content_security_policy": "script-src 'self' https://maxcdn.bootstrapcdn.com https://ajax.googleapis.com https://use.fontawesome.com https://cdnjs.cloudflare.com; object-src 'self'",
+  "content_security_policy": "script-src 'self' https://maxcdn.bootstrapcdn.com https://ajax.googleapis.com https://use.fontawesome.com https://cdnjs.cloudflare.com https://maps.googleapis.com; object-src 'self'",
   "manifest_version": 2
 }

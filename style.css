@@ -12,7 +12,7 @@ html {
 
 body {
     font-family: 'Open Sans', sans-serif;
-    width: 100%;
+    width: 780px;
     min-height: 100%;
     background: #ed1c40;
     overflow: scroll;
@@ -34,7 +34,7 @@ ul, menu, dir {
 }
 
 .card {
-    width: 500px;
+    width: 700px;
     min-height: 100px;
     padding: 20px;
     border-radius: 3px;
@@ -43,6 +43,7 @@ ul, menu, dir {
     position: relative;
     overflow: hidden;
     margin: 20px 10px 20px 10px;
+    box-shadow: 0 5px 5px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2);
 }
 
 .badgescard {
@@ -74,9 +75,10 @@ ul, menu, dir {
 .block-prefix {
   padding: 20px 0 20px 0;
   float: left;
-  width: 120px;
+  width: 180px;
   height: 100%;
   vertical-align: top;
+  word-wrap: break-word;
 }
 
 .block-prefix i {
@@ -84,8 +86,9 @@ ul, menu, dir {
 }
 
 .description {
-  max-width: 300px;
+  max-width: 500px;
   padding-right: 20px;
+  word-wrap: break-word;
 }
 
 .description p img {
@@ -118,9 +121,13 @@ ul, menu, dir {
     font-style: initial;
 }
 
-.date-box {
-  vertical-align: top;
-  height: 100px;
+.sidebar-section {
+  padding: 5px 5px 5px 0;
+}
+
+.sidebar-icons {
+  font-size: 20px;
+  padding-right: 10px;
 }
 
 .meetup-date {
@@ -134,8 +141,27 @@ ul, menu, dir {
   font-weight: bold;
 }
 
+.maps {
+  width: 400px;
+  height: 200px;
+}
+
 #results li {
   list-style-type: none;
+}
+
+#loader {
+    border: 16px solid #f3f3f3; /* Light grey */
+    border-top: 16px solid #3498db; /* Blue */
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
 }
 
 @keyframes animatop {
