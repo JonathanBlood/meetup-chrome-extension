@@ -5,4 +5,4 @@ A simple Chrome extension to find upcoming meetups in your area.
 
 Install from [Chrome Store](https://chrome.google.com/webstore/detail/find-meetup-events/hhamlafopmjnfkoogdfbobdnohcgidjn)
 
-![appt](http://i.imgur.com/me7bx5B.png)
+![appt](http://i.imgur.com/YHLQ9IO.png)
